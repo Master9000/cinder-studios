@@ -1,0 +1,155 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="cinder.css">
+</head>
+  <title>
+    Cinder Studios
+  </title>
+
+  <header>
+    Cinder Studios
+  </header>
+  <body>
+    Just as a test, jump to the <a href="#bot">bottom</a>
+    <script src="home.js"></script>
+    <button class="accordion">Home</button>
+    <div class="panel">
+      <h1>
+        Home
+      </h1>
+      <p>
+        Welcome to our homepage. We sincerely hope you enjoy your stay. </br>
+        Here you can <a href="other.html"> get out </a>
+      </br> We are a small group as of right now, being that only two people involved.
+      We together work on many projects. Most of them aren't full scale projects like the ones
+      you'll see listed on our website. We advertise the projects that are much larger, taking
+      usually months to complete if not just start. We hope to on these large projects, gain
+      more people who would want to join us in out edeavors. We're open to pretty much anyone
+      who would like to help us out. Under the contact us section, you can join our discord and
+      get your start with us there.
+    </p>
+    <p>
+      There's a lot that we do, and we're always willing to learn more and grow as not just
+      individuals, but as a group, we want to improve what we do constantly and increase the
+      quality of what we make. Any one who wants to help us, join us, or support us, can do that
+      through many different mediums. Thank you for your support, and welcome to the website.
+    </p>
+
+
+      </div>
+  </br>
+
+    <div class="w3-round-large w3-orange">
+      <button class="accordion">About Us</button>
+      <div class="panel">
+        <h1>Intro</h1>
+        <p>
+          As already stated, there are two of us that work in Cinder Studios right now. I'm Brad,
+          at least the one who's typing this. Most of what you're seeing has been my work, and that
+          starts off with what separates me and Argo. I do a lot of problem solving. I don't do things
+          if it doesn't solve a problem. We needed a website, so I'm doing a lot of this. Argo will type
+          up his own bio, but you get the gist. Welcome to ussr, and we're always open for more people to
+          join the team. This is our start, but by far it is not our end. This studio is open for anything
+          , so challenge us, and we'll do our best. If our best isn't good enough, we'll get better.
+        </b> -Brad
+        </p>
+        <p>
+          I don't have a lot to say, look at the spreadsheets. Also skarm is a thing, try poking him.
+        </b> -Argo
+      </p>
+      </div>
+  </div>
+</br>
+    <button class="accordion">Projects</button>
+    <div class="panel">
+    <p id = "demo">
+        Things we do.	
+     </p>
+		<script>
+			document.getElementByID("demo").innerHTML += getWidth();
+		</script>
+      <p>
+      <a href="#bot">
+        <img class = "img" src="picture\grimoire.png">
+      </a>
+      <a href="https://pastebin.com/yM8wkRyw">
+        <img class = "img" src="picture\skarm.png">
+      </a>
+    </br>
+      <a href="https://docs.google.com/spreadsheets/d/17HwmmJE-oKMyD20SwOqGjQN9XXTj0SU7nXy-oKQ5zFw/edit?usp=sharing">
+        <img class = "img" src="picture\spreadsheets.png">
+      </a>
+      <a href="#bot">
+        <img class = "img" src="picture\songs.png">
+      </a>
+    </p>
+    </div>
+  </br>
+    <button class="accordion">Contact Us</button>
+    <div class="panel">
+      <h1>
+        How To
+      </h1>
+      <p>
+         For projects like ours, we need ideas and more people to join us. To get in
+         touch, use one of our contact links. For any buisness inquiries, please use
+         our studio email and not anything else. If you want to join us, talk to us,
+         or get in touch for any other reasons, our discord server is the best way to
+         do that. We use that server not only as a basis for a support group, but also
+         to organize our thoughts, tests bots, get in touch with other people to talk to,
+         and even expand our group here in the studios.
+       </p>
+       <p>
+         <l>
+           Brad's Contact - <a href="mailto:Ongakukikai@gmail.com?subject=subject&cc=cc@example.com">
+             ongakukikai@gmail.com</a>
+         </l>
+       </br>
+         <l>
+           Argo's Contact - <a href="mailto:ArgoTheNaut@gmail.com?subject=subject&cc=cc@example.com">
+		   ArgoTheNaut@gmail.com</a>
+         </l>
+         <l>
+         </br>
+           General Work Contact -
+           <a href="mailto:CinderStudiosNY@gmail.com?subject=subject&cc=cc@example.com">cinderstudiosny@gmail.com</a>
+         </l>
+       </p>
+
+       <h1>
+         Discord
+       </h1>
+       <p>
+         When you join the discord server, you will have one chance to set your name.
+         Please be sure to make this name something you will respond to, is appropriate,
+         and doesn't violate any of the rules of the server. If it is innappropriate or
+         offensive, we will tempban you from the server until you give us a different name
+         to set you to. If this happens more than once, while as a buisness partner you
+         won't be disrespected, you'll no longer be allowed in the discord server, limited
+         to only email contact for buisness reasons only.
+       </p>
+		<iframe src="https://discordapp.com/widget?id=279340220938321930&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+        </div>
+  </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
+}
+</script>
+  <script src="home.js"></script>
+  <a name="bot">
+  </body>
+</html>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+  background-color: #0a0a0a;
+  color: white
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  font-size: 100px;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: orange;
+}
+.img{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-style:solid white;
+  border-size: 8px;
+  border-radius: 5px;
+  height: auto;
+  max-width: 90%;
+}
+p{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  marging-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: grey;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 4px;
+  padding-left: 4px;
+  max-width: 80%;
+}
+.accordion {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: 1px orange;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.active, .accordion:hover {
+    background-color: #cccccc;
+    color: #634102;
+}
+.panel {
+    padding: 0 18px;
+    background-color: black;
+    color: white;
+    text-family: sans;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+button {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  border: 1px solid orange;
+  border-radius: 4px;
+}
+body {
+  text-align: center;
+  color: white;
+}
+a {
+  color: orange;
+}
